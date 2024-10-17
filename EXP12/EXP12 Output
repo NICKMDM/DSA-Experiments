@@ -1,0 +1,13 @@
+Enter the number of employees: 5
+Enter ID for employee 1: 1
+Enter name for employee 1: Romit
+Enter ID for employee 2: 2
+Enter name for employee 2: Mahak
+Enter ID for employee 3: 3
+Enter name for employee 3: Prince
+Enter ID for employee 4: 4
+Enter name for employee 4: Chinmay
+Enter ID for employee 5: 5
+Enter name for employee 5: Shravanya
+Enter employee ID to search: 4
+Employee found: ID = 4, Name = Chinmay
