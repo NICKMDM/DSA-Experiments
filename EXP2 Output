@@ -1,0 +1,7 @@
+Enter infix expression:
+8*(9+2)/3   
+Postfix expression is 892+*3/
+
+Enter infix expression:
+9/(3*7)*5+2
+Postfix expression is 937*/5*2+
