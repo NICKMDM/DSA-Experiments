@@ -1,0 +1,26 @@
+Enter your choice: 1
+Array after Selection Sort: 5 6 12 13 45 
+
+Menu:
+1. Selection Sort
+2. Bubble Sort
+3. Insertion Sort
+4. Exit
+Enter your choice: 2
+Array after Bubble Sort: 5 6 12 13 45 
+
+Menu:
+1. Selection Sort
+2. Bubble Sort
+3. Insertion Sort
+4. Exit
+Enter your choice: 3
+Array after Insertion Sort: 5 6 12 13 45 
+
+Menu:
+1. Selection Sort
+2. Bubble Sort
+3. Insertion Sort
+4. Exit
+Enter your choice: 4
+Exiting...
