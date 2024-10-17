@@ -1,0 +1,116 @@
+1. Create list
+2. Display list
+3. Insert at beginning
+4. Insert in middle
+5. Insert at end
+6. Delete from beginning
+7. Delete from middle
+8. Delete from end
+9. Exit
+Enter your choice: 1
+Enter data to node: 3
+Do you want to add more nodes? (y/n): y
+Enter data to node: 5
+Do you want to add more nodes? (y/n): y
+Enter data to node: 6
+Do you want to add more nodes? (y/n): y
+Enter data to node: 8
+Do you want to add more nodes? (y/n): y
+Enter data to node: 9
+Do you want to add more nodes? (y/n): n
+
+1. Create list
+2. Display list
+3. Insert at beginning
+4. Insert in middle
+5. Insert at end
+6. Delete from beginning
+7. Delete from middle
+8. Delete from end
+9. Exit
+Enter your choice: 2
+3 -> 5 -> 6 -> 8 -> 9 -> HEAD
+
+1. Create list
+2. Display list
+3. Insert at beginning
+4. Insert in middle
+5. Insert at end
+6. Delete from beginning
+7. Delete from middle
+8. Delete from end
+9. Exit
+Enter your choice: 3
+Enter data for node: 4
+
+1. Create list
+2. Display list
+3. Insert at beginning
+4. Insert in middle
+5. Insert at end
+6. Delete from beginning
+7. Delete from middle
+8. Delete from end
+9. Exit
+Enter your choice: 4
+Enter location to insert: 4
+Enter data for node: 5
+
+1. Create list
+2. Display list
+3. Insert at beginning
+4. Insert in middle
+5. Insert at end
+6. Delete from beginning
+7. Delete from middle
+8. Delete from end
+9. Exit
+Enter your choice: 5
+Enter data for node: 6
+
+1. Create list
+2. Display list
+3. Insert at beginning
+4. Insert in middle
+5. Insert at end
+6. Delete from beginning
+7. Delete from middle
+8. Delete from end
+9. Exit
+Enter your choice: 6
+
+1. Create list
+2. Display list
+3. Insert at beginning
+4. Insert in middle
+5. Insert at end
+6. Delete from beginning
+7. Delete from middle
+8. Delete from end
+9. Exit
+Enter your choice: 7
+Enter location to delete: 8
+Location out of bounds
+
+1. Create list
+2. Display list
+3. Insert at beginning
+4. Insert in middle
+5. Insert at end
+6. Delete from beginning
+7. Delete from middle
+8. Delete from end
+9. Exit
+Enter your choice: 2
+3 -> 5 -> 5 -> 6 -> 8 -> 9 -> 6 -> HEAD
+
+1. Create list
+2. Display list
+3. Insert at beginning
+4. Insert in middle
+5. Insert at end
+6. Delete from beginning
+7. Delete from middle
+8. Delete from end
+9. Exit
+Enter your choice: 9
