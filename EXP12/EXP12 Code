@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <string.h>
+
+typedef struct {
+    int id;
+    char name[50];
+} Employee;
+
+int binary_search(Employee employees[], int size, int target_id) {
+    int left = 0, right = size - 1;
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (employees[mid].id == target_id) {
+            return mid;
+        }
+        if (employees[mid].id < target_id) {
+            left = mid + 1;
+        } else {
+            right = mid - 1;
+        }
+    }
+    return -1;
+}
+
+int main() {
+    int n, target_id;
+
+    // Take the number of employees from the user
+    printf("Enter the number of employees: ");
+    scanf("%d", &n);
+
+    // Dynamically allocate array of Employee
+    Employee employees[n];
+
+    // Take input for employee details
+    for (int i = 0; i < n; i++) {
+        printf("Enter ID for employee %d: ", i + 1);
+        scanf("%d", &employees[i].id);
+        printf("Enter name for employee %d: ", i + 1);
+        scanf(" %[^\n]", employees[i].name);  // Use this format to take string input with spaces
+    }
+
+    // Ask the user for the target employee ID
+    printf("Enter employee ID to search: ");
+    scanf("%d", &target_id);
+
+    // Perform the search
+    int result = binary_search(employees, n, target_id);
+    if (result != -1) {
+        printf("Employee found: ID = %d, Name = %s\n", employees[result].id, employees[result].name);
+    } else {
+        printf("Employee with ID %d not found.\n", target_id);
+    }
+
+    return 0;
+}
