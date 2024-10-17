@@ -1,0 +1,28 @@
+Enter the number of elements in the array: 6
+Enter the elements of the array: 13
+12
+43
+65
+79
+48
+
+Menu:
+1. Merge Sort
+2. Quick Sort
+3. Exit
+Enter your choice: 1
+Array after Merge Sort: 12 13 43 48 65 79 
+
+Menu:
+1. Merge Sort
+2. Quick Sort
+3. Exit
+Enter your choice: 2
+Array after Quick Sort: 12 13 43 48 65 79 
+
+Menu:
+1. Merge Sort
+2. Quick Sort
+3. Exit
+Enter your choice: 3
+Exiting...
