@@ -1,0 +1,56 @@
+Menu:
+1. push
+2. pop
+3. peek
+4. display
+5. exit
+enter your choice : 1
+Enter the value to push: 34
+Menu:
+1. push
+2. pop
+3. peek
+4. display
+5. exit
+enter your choice : 1
+Enter the value to push: 69
+Menu:
+1. push
+2. pop
+3. peek
+4. display
+5. exit
+enter your choice : 1
+Enter the value to push: 89
+Menu:
+1. push
+2. pop
+3. peek
+4. display
+5. exit
+enter your choice : 2
+Popped value: 89
+Menu:
+1. push
+2. pop
+3. peek
+4. display
+5. exit
+enter your choice : 3
+Top value : 69
+Menu:
+1. push
+2. pop
+3. peek
+4. display
+5. exit
+enter your choice : 4
+69->34->NULL
+Menu:
+1. push
+2. pop
+3. peek
+4. display
+5. exit
+enter your choice : 5
+Exiting
